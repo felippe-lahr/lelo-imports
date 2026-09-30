@@ -1,0 +1,14 @@
+{
+  "name": "Lelo Imports — Auto Peças",
+  "short_name": "Lelo Imports",
+  "description": "Peças para carros importados antigos e novos. +5.000 peças originais, envio para todo o Brasil.",
+  "lang": "pt-BR",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0A0A0C",
+  "theme_color": "#0A0A0C",
+  "icons": [
+    { "src": "/imagens/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/imagens/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

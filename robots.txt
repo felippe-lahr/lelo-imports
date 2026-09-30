@@ -1,0 +1,17 @@
+# Lelo Imports — https://leloimports.com.br
+User-agent: *
+Allow: /
+
+# IA / mecanismos generativos (bem-vindos)
+User-agent: GPTBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://leloimports.com.br/sitemap.xml
