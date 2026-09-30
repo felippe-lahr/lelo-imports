@@ -11,6 +11,14 @@ DirectoryIndex index.html
   AddType application/xml .xml
 </IfModule>
 
+# URLs limpas para as páginas legais (/politica-de-privacidade -> politica-de-privacidade.html)
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^([a-z0-9-]+)/?$ $1.html [L]
+</IfModule>
+
 # Compressão (o HTML tem assets embutidos em base64 — comprimir reduz muito o tráfego)
 <IfModule mod_deflate.c>
   AddOutputFilterByType DEFLATE text/html text/plain text/css application/javascript application/json image/svg+xml application/xml application/manifest+json
